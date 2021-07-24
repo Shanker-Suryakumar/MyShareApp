@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyShareApp</string>
+    <string name="hint_msg">Please enter message to send</string>
+    <string name="send_msg">Send message to second activity</string>
+    <string name="share_msg">Share message</string>
+    <string name="received_msg">Received message</string>
+    <string name="recycler_view">Recycler view</string>
+</resources>

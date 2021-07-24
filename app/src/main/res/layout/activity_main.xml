@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/etMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="@dimen/margin_10"
+    android:hint="@string/hint_msg" />
+
+<Button
+    android:id="@+id/btnSendMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/etMessage"
+    android:layout_margin="@dimen/margin_10"
+    android:text="@string/send_msg" />
+
+<Button
+    android:id="@+id/btnShareMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnSendMessage"
+    android:layout_margin="@dimen/margin_10"
+    android:text="@string/share_msg" />
+
+<Button
+    android:id="@+id/btnRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnShareMessage"
+    android:layout_margin="@dimen/margin_10"
+    android:text="@string/recycler_view" />
+</RelativeLayout>
